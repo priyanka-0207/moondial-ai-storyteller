@@ -9,10 +9,10 @@ and plain-Python checks for the things a model cannot be trusted to count.
 Failing drafts get targeted revision, bounded and measured.
 
 ```text
-request 
-        -
-        
-        
+request -> categorize/soften -> one controlled twist -> generate
+        -> code-enforced length -> rubric judge + Python checks
+        -> bounded revision -> best draft by (passed, fewest fixes, score)
+        -> optional user feedback through the same checks  
 ```
 
 ## How to run

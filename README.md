@@ -9,10 +9,10 @@ and plain-Python checks for the things a model cannot be trusted to count.
 Failing drafts get targeted revision, bounded and measured.
 
 ```text
-request -> categorize/soften -> one controlled twist -> generate
-        -> code-enforced length -> rubric judge + Python checks
-        -> bounded revision -> best draft by (passed, fewest fixes, score)
-        -> optional user feedback through the same checks
+request 
+        -
+        
+        
 ```
 
 ## How to run
@@ -34,10 +34,10 @@ export OPENAI_API_KEY="sk-..."
 Then:
 
 ```bash
-python main.py                 # interactive: request, optional age, feedback loop
-python main.py --read-aloud    # prints paragraph by paragraph at a bedtime pace
-python eval.py                 # scorecard across 6 fixed requests (uses the API)
-python -m unittest -v test_main   # offline tests: no key, no network, no cost
+python main.py                 
+python main.py --read-aloud   
+python eval.py                 
+python -m unittest -v test_main  
 ```
 
 `uv` users can replace `python` with `uv run python` in any command above.
